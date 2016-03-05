@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
+	"\/experience.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/experience.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/london.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -13,24 +22,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/me.png": {
-		"fileType": 32768,
+	"\/images\/oranges-apples.jpg": {
+		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 30493,
-		"inputAbbreviatedPath": "\/images\/me.png",
-		"outputAbbreviatedPath": "\/images\/me.png",
+		"initialSize": 352353,
+		"inputAbbreviatedPath": "\/images\/oranges-apples.jpg",
+		"outputAbbreviatedPath": "\/images\/oranges-apples.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/portland.jpg": {
-		"fileType": 16384,
+	"\/images\/profile.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1.21252e+06,
-		"inputAbbreviatedPath": "\/images\/portland.jpg",
-		"outputAbbreviatedPath": "\/images\/portland.jpg",
+		"initialSize": 24875,
+		"inputAbbreviatedPath": "\/images\/profile.png",
+		"outputAbbreviatedPath": "\/images\/profile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
