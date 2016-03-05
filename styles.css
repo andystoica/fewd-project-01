@@ -1,15 +1,31 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #222;
   background: #f7f5f0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  font-weight: 100;
+  line-height: 2;
 }
 /* Link Styles */
 
@@ -34,7 +50,7 @@ a:hover {
 .nav {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
+  font-weight: 400;
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
@@ -57,10 +73,10 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/london.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding: 60px 20px 0 20px;
 }
 header {
   line-height: 1.5;
@@ -77,16 +93,16 @@ header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: rgba(255, 255, 255, 0.7);
   color: black;
   padding: 10px;
   border-radius: 5px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
-  background-color: #222;
-  color: yellow;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
 }
 .card {
   margin: 30px;
@@ -169,10 +185,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -194,7 +210,7 @@ a.social:hover {
   }
 
   main p {
-    line-height: 1.6em;
+    /*line-height: 1.6em;*/
   }
 
   footer {
@@ -204,4 +220,3 @@ a.social:hover {
   }
 
 }
-
